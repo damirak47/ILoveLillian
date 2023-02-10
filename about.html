@@ -1,27 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    /* Center the video vertically and horizontally */
-    .video-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <style> 
+      #video { 
+        display: block; 
+        margin: 0 auto; 
+        width: 80%; 
+        height: 80%; 
+      } 
 
-    /* Add a dark red background color */
-    body {
-      background-color: #8b0000;
-    }
-  </style>
-</head>
-<body>
-  <div class="video-container">
-    <video controls width="50%">
-      <source src="ValentinesVideo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</body>
+      #header { 
+        text-align: center; 
+        font-size: 36px; 
+        color: white; 
+        margin-top: 20px; 
+      } 
+    </style> 
+  </head> 
+  <body style="background: darkred;"> 
+    <div id="header">Be my Valentine Lillie-Pad🤍</div> 
+    <video id="video" controls> 
+      <source src="your-video-file.mp4" type="video/mp4"> 
+    </video> 
+  </body> 
 </html>
