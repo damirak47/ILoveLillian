@@ -1,0 +1,49 @@
+!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-family: 'American Typewriter', serif;
+        font-size: 25px;
+        line-height: 100vh;
+        position: relative;
+        top: 50px;
+      }
+      .center {
+        text-align: center;
+      }
+      body {
+        background-color: hotpink;
+        height: 100vh;
+      }
+      .heart {
+        display: inline-block;
+        color: darkred;
+        padding: 0px;
+        border-radius: 50% 50% 0 50%;
+        transform: rotate(25deg);
+        font-size: 150px;
+      }
+      .image {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="image.jpg" alt="Your Image" class="image">
+    <div class="center">
+      <h1>
+        <span class="heart">&#9829;</span>
+        <a href="image.html">If you're the loving, beautiful, kind, special, hard-working, intelligent, hilarious, stylish, perfect young woman above click me!</a>
+        <span class="heart">&#9829;</span>
+      </h1>
+    </div>
+  </body>
+</html>
