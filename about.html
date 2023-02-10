@@ -8,45 +8,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        position: relative;
       }
 
       img {
         height: 500px;
         width: 500px;
       }
-
-      .heart {
-        position: absolute;
-        color: white;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 100px;
-        height: 100px;
-        background: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cpath%20fill%3D%22%238B0000%22%20d%3D%22M50%2020.5C33.5%2020.5%2020.5%2033.5%2020.5%2050%2020.5%2066.5%2033.5%2066.5%2050%2066.5%2066.5%2033.5%2050%2066.5%2050%2050%2066.5%2033.5%2020.5%2050%2020.5%2020.5z%22%2F%3E%3C%2Fsvg%3E);
-        background-size: contain;
-        animation: move-heart 10s linear infinite;
-      }
-
-      @keyframes move-heart {
-        0% {
-          transform: translateX(-50%) rotate(0deg);
-        }
-        100% {
-          transform: translateX(150%) rotate(360deg);
-        }
-      }
-
-      .heart:nth-child(2) {
-        top: initial;
-        bottom: -25px;
-      }
     </style>
   </head>
   <body>
-    <div class="heart"></div>
-    <div class="heart"></div>
     <img src="your-image-file.jpg" alt="Your Image">
   </body>
 </html>
